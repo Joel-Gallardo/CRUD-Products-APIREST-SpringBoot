@@ -1,7 +1,7 @@
-package com.joel.crudproducts.products;
+package com.joel.crudproducts.products.persistency.repository;
 
+import com.joel.crudproducts.products.persistency.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
